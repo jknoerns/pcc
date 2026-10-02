@@ -1,0 +1,4 @@
+Back to basics with Python
+Reading "Python Crash Course"
+Adding examples here
+Nothing new so but the complicated code is coming...
