@@ -1,0 +1,1 @@
+print('Kevin Schwantz once said, "I use to love the rain because I felt like it made my motorcycles exactly the same as everybody else. At that point it turned in to a rider to rider battle."')
