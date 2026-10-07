@@ -68,3 +68,8 @@ popped_item2 = lesser_bikes.pop(1)
 print(f"Now the list looks like this {lesser_bikes}")
 print(f"And the motorcycle that was removed is {popped_item2}.")
 
+# remove an element by value
+print(f"\nCurrent list {lesser_bikes}")
+print("Using remove to elimnate 'jawa' from the list | .remove('jawa')")
+lesser_bikes.remove('jawa')
+print(f"Now the list looks like this {lesser_bikes}")
