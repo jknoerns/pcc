@@ -44,3 +44,9 @@ else:
 alien_3['x_position'] = alien_3['x_position'] + x_increment
 
 print(f"\nNew postion of alien_3: {alien_3['x_position']}")
+
+alien_4 = {'color': 'green', 'points': 5}
+print(f"\nThis is alien_4: {alien_4}")
+
+del alien_4['points']
+print(f"This is alien_4 after deleting points: {alien_4}")
