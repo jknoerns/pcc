@@ -34,3 +34,16 @@ if 'erin' not in favorite_languages.keys():
 print("\nTime to sort the names (keys).")
 for name in sorted(favorite_languages.keys()):
     print(f"{name.title()}, thank you for taking the poll.")
+
+print("\nThe following languages have been mentioned:")
+for language in favorite_languages.values():
+    print(language.title())
+
+# use set to eliminate duplicates
+print("\nThe following languages have been mentioned:")
+for language in set(favorite_languages.values()):
+    print(f"\t{language.title()}")
+
+# making a set, curly braces, no keys
+languages = {'python', 'rust', 'python', 'c'}
+print(f"Languages as a set: {languages}")
